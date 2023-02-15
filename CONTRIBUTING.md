@@ -6,17 +6,19 @@ Hi! We are excited that you are interested in ArmoniK and want to make it even b
 
 Before attempting to make a feature pull request, open an issue and discuss it with us. It will help maintainers understand what you want to do as well as make sure that you go in a direction that is suitable for ArmoniK' future.
 
+If you have an idea or want to discuss an issue with the community, you can alternatively create a discussion in our [Discussions Channel](https://github.com/aneoconsulting/ArmoniK/discussions).
+
 ## Submission guidelines
 
 ### Submit an issue
 
-Before submitting a new issue, please take a look at the existing [ArmoniK issues](https://github.com/aneoconsulting/ArmoniK/issues) to see if someone already mentioned your issue. If it already exists, it may inform you of workaround readily available.
+Before submitting a new issue, please take a look at the existing [ArmoniK issues](https://github.com/aneoconsulting/ArmoniK/issues) and [Discussions](https://github.com/aneoconsulting/ArmoniK/discussions) to see if someone already mentioned your issue. If it already exists, it may inform you of workaround readily available.
 
 We want to fix issues as soon as possible, but before fixing a bug, we need to reproduce and confirm it. In order to do so, we require you to provide a minimal reproduction example. This will give us important information without having to ask you multiple complementary questions.
 
-A minimal reproductoion scenario allows us to quickly confirm a bug, isolate it and confirm that we are really fixing it.
+A minimal reproduction scenario allows us to quickly confirm a bug, isolate it and confirm that we are really fixing it. It includes detailled informations about the environment you use, the ArmoniK configurations and versions that leads to your issue and what to do to reproduce your issue. It can also include code snippets that are useful to highlight the issue. It can go up to a full example (client + worker) published on a git repository.
 
-Unfortunately, we are not able to investigate or fix bugs without a minimal reproduction sample, so if we don't hear back from you, we will close the issue since it is missing information to be reproduced.
+Unfortunately, we are not able to investigate or fix bugs without a minimal reproduction sample, so if we don't hear back from you, we will close the issue since it is missing information to be reproduced. The issue can be reopened if the user can provide more information after the issue was closed.
 
 Helping us to easily reproduce an issue also helps you. Our developpers will be able to more easily pinpoint the issue and provide a correction. Thus, solving your issue faster.
 
@@ -74,7 +76,7 @@ We should particularly take attention to:
 
 Our release process in the repositories is as follow:
 
-1. Create a release and a tag from the GitHub interface.
+1. Create a release and a tag from the GitHub interface. We try to follow [SemVer](https://semver.org/) as much as possible for our tags.
 2. The CI/CD will check that the tag is valid. If the tag is not valid, the CI/CD will fail.
 3. The CI/CD will run and produce the artifacts with the given tag.
 

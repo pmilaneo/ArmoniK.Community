@@ -4,7 +4,8 @@ Hi! We are excited that you are interested in ArmoniK and want to make it even b
 
 ## Discuss First !
 
-Before attempting to make a feature pull request, open an issue and discuss it with us. It will help maintainers understand what you want to do as well as make sure that you go in a direction that is suitable for ArmoniK' future.
+Create a new issue and talk to us about it before attempting to create a feature pull request.
+It will help maintainers in comprehending your requirements and ensuring that you take steps that are appropriate for ArmoniK's future. 
 
 If you have an idea or want to discuss an issue with the community, you can alternatively create a discussion in our [Discussions Channel](https://github.com/aneoconsulting/ArmoniK/discussions).
 

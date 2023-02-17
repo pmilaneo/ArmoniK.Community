@@ -43,7 +43,7 @@ The core principles are as follow: (we advise you to read the previous link)
 - Developpers merge small and frequent updates to the main branch
 - Developpers create short-lived branches with a few small commits
 - CI/CD runs on every push, and we check that the tests (unitary, functional, and integration) and formatting still pass.
-- Release are produced from the main branch
+- Releases are produced from the main branch.
 
 Thus, a Pull Request (PR) should target the main branch.
 

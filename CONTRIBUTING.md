@@ -21,7 +21,7 @@ A minimal reproduction scenario allows us to quickly confirm a bug, isolate it a
 
 Unfortunately, we are not able to investigate or fix bugs without a minimal reproduction sample, so if we don't hear back from you, we will close the issue since it is missing information to be reproduced. The issue can be reopened if the user can provide more information after the issue was closed.
 
-Helping us to easily reproduce an issue also helps you. Our developpers will be able to more easily pinpoint the issue and provide a correction. Thus, solving your issue faster.
+Helping us to easily reproduce an issue also helps you. Our developers will be able to more easily pinpoint the problem and provide a correction. As a result, the process of resolving issues is accelerated. 
 
 You can file new issues by selecting from our [new issues templates](https://github.com/aneoconsulting/ArmoniK/issues/new/choose) and filling it.
 

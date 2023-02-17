@@ -13,7 +13,7 @@ If you have an idea or want to discuss an issue with the community, you can alte
 
 ### Submit an issue
 
-Before submitting a new issue, please take a look at the existing [ArmoniK issues](https://github.com/aneoconsulting/ArmoniK/issues) and [Discussions](https://github.com/aneoconsulting/ArmoniK/discussions) to see if someone already mentioned your issue. If it already exists, it may inform you of workaround readily available.
+Before submitting a new issue, please take a look at the existing [ArmoniK issues](https://github.com/aneoconsulting/ArmoniK/issues) and [Discussions](https://github.com/aneoconsulting/ArmoniK/discussions) to see if someone already mentioned a similar one or even the same issue you would like to raise. If it already exists, it may inform you of a workaround that is readily available.
 
 We want to fix issues as soon as possible, but before fixing a bug, we need to reproduce and confirm it. In order to do so, we require you to provide a minimal reproduction example. This will give us important information without having to ask you multiple complementary questions.
 

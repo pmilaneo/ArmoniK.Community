@@ -15,4 +15,11 @@ export default defineNuxtConfig({
   },
 
   extends: "@aneoconsultingfr/armonik-docs-theme",
+
+  runtimeConfig: {
+    public: {
+      siteName: 'ArmoniK.Community',
+      siteDescription: 'All our ways of working and our good practices.',
+    }
+  },
 })

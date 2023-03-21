@@ -1,0 +1,19 @@
+{
+  "name": "armonik-community",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
+    "eslint": "^8.35.0",
+    "nuxt": "^3.2.2",
+    "rollup": "3.18.0",
+    "@aneoconsultingfr/armonik-docs-theme": "^0.5.3"
+  }
+}

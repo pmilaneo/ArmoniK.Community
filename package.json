@@ -10,10 +10,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@aneoconsultingfr/armonik-docs-theme": "^0.6.0",
     "@nuxt/eslint-config": "^0.1.1",
     "eslint": "^8.35.0",
     "nuxt": "^3.3.1",
-    "rollup": "3.18.0",
-    "@aneoconsultingfr/armonik-docs-theme": "^0.6.0"
-  }
+    "rollup": "3.18.0"
+  },
+  "packageManager": "pnpm@8.1.0"
 }

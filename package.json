@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prepare": "nuxi prepare",
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
@@ -10,7 +11,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@aneoconsultingfr/armonik-docs-theme": "^0.6.6",
+    "@aneoconsultingfr/armonik-docs-theme": "^0.6.8",
     "@nuxt/eslint-config": "^0.1.1",
     "eslint": "^8.40.0",
     "nuxt": "^3.4.3"

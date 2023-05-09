@@ -1,6 +1,5 @@
 {
   "name": "armonik-community",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
     "prepare": "nuxi prepare",
@@ -8,13 +7,20 @@
     "build": "nuxi build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
-    "lint": "eslint ."
+    "lint": "eslint --cache .",
+    "lint:fix": "eslint --cache --fix .",
+    "lint:md": "markdownlint . && case-police ./**/*.md",
+    "lint:md:fix": "markdownlint . --fix && case-police --fix ./**/*.md"
   },
   "dependencies": {
-    "@aneoconsultingfr/armonik-docs-theme": "^0.6.8",
-    "@nuxt/eslint-config": "^0.1.1",
-    "eslint": "^8.40.0",
+    "@aneoconsultingfr/armonik-docs-theme": "^0.6.9",
     "nuxt": "^3.4.3"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
+    "case-police": "^0.6.0",
+    "eslint": "^8.40.0",
+    "markdownlint-cli": "^0.34.0"
   },
   "packageManager": "pnpm@8.4.0"
 }
